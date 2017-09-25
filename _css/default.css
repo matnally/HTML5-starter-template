@@ -1,0 +1,23 @@
+
+.divTable {
+  display: table;
+}
+.divRow {
+  display: table-row;
+}
+.divCell {
+  vertical-align: top;
+  border: 1px #CCC solid;
+  display: table-cell;
+  padding: 5px;
+}
+.divRight {
+  text-align: right;
+}
+/*
+<div class="divTable">
+  <div class="divRow">
+    <div class="divCell"></div><!-- divCell -->
+  </div><!-- divRow -->
+</div><!-- divTable -->
+*/
