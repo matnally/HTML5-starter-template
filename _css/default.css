@@ -1,4 +1,37 @@
 
+/*** START global fonts and text styling ***/
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+p {
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+/*** END global fonts and styling ***/
+
+/*** START anchors ***/
+a:link { /* unvisited link */
+  color: blue;
+}
+a:visited { /* visited link */
+  color: purple;
+}
+a:hover { /* mouseover link */
+  text-decoration: underline;
+}
+a:active { /* selected link */
+  background-color: yellow; /* accessibility */
+  color: red;
+}
+/*** END anchors ***/
+
+/*** START div tables ***/
 .divTable {
   display: table;
 }
@@ -7,17 +40,6 @@
 }
 .divCell {
   vertical-align: top;
-  border: 1px #CCC solid;
   display: table-cell;
-  padding: 5px;
 }
-.divRight {
-  text-align: right;
-}
-/*
-<div class="divTable">
-  <div class="divRow">
-    <div class="divCell"></div><!-- divCell -->
-  </div><!-- divRow -->
-</div><!-- divTable -->
-*/
+/*** END div tables ***/
